@@ -1,6 +1,8 @@
 #ifndef LIST_H
 #define LIST_H
 
+// Forward declarations for a linked list
+
 typedef struct list *list_t;
 typedef struct node *node_t;
 

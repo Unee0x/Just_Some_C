@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+// This will demostrate an array of function pointers
+
 int add(int a, int b){ 
 	printf("Added %d and %d to get %d\n",a,b, a + b);
 	return a + b;

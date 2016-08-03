@@ -8,7 +8,7 @@
 #include <math.h>
 #include <unistd.h>
 
-
+// A partial linked list implementation 
 
 struct node{
 	void *data;

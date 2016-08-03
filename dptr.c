@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 
+// This demostrates how to dynamically allocate and deallocate a multi-dimensional array 
+
 void **make_grid(size_t rows, size_t columns){
 	void **dvp = NULL;
 

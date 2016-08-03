@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// A simple Fibonacci number finding function
 
 size_t F(size_t n){
 	
