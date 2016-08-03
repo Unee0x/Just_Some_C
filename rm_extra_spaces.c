@@ -21,7 +21,7 @@ char *rm_extra_spaces(char *s){
 
 int main(int argc, char const *argv[])
 {
-	char *arg = "Today                              is                       Monday!";
+	char *arg = "C   Language   is    Phenomenal     !";
 	char *s = rm_extra_spaces(arg);
 
 	printf("%s\n", s);
