@@ -2,6 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+// This function will remove extra spaces any extra spaces from a string.
+
 char *rm_extra_spaces(char *s){
 	static char S[] = {'\0'};
 		for(int i = 0,j = 0; i < strlen(s);i++){
