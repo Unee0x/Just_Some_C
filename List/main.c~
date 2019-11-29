@@ -1,0 +1,20 @@
+#include "List.h"
+
+int main(){
+
+        list_t l = List();
+	int r[] = {[0 ... 99] = 0};
+        for(int i = 0; i < 100;i++){
+          srand(time(NULL));
+	    r[i] =  get_rand(0, 9);
+            append(l,&r);
+
+        }
+
+
+
+	print_list(l);
+	delete_list(l);
+
+	EXIT_SUCCESS;
+}
